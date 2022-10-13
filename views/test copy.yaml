@@ -1,7 +1,0 @@
-dataset: test_dataset
-view: test_view2
-query: "SELECT CURRENT_DATE() LIMIT 100"
-
-
-
-
