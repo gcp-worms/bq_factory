@@ -1,8 +1,9 @@
-project_name         = "bq-factory-new-test"
+project_name         = "bq-factory-dontdestroy"
 billing_account      = "0170F0-01CF73-A975FA"
 organization_account = "1004437788572"
 activated_apis       = ["bigquery.googleapis.com", "iamcredentials.googleapis.com", "iam.googleapis.com", "sts.googleapis.com"]
-data_dir             = "./yaml"
+views_dir            = "./views"
+tables_dir           = "./tables"
 # gcp_region           = "europe-west3"
 # gcp_zone             = "europe-west3-c"
 # activated_apis       = ["bigquery.googleapis.com",
