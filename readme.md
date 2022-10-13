@@ -8,6 +8,8 @@ Subfolders distinguish between views and tables and ensures easier navigation fo
 
 This factory is based on the [BQ dataset module](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/tree/master/modules/bigquery-dataset) which currently only supports tables and views. As soon as external table and materialized view support is added, factory will be enhanced accordingly.
 
+You can create as many files as you like, the code will loop through it and create the required variables in order to execute everything accordingly.
+
 ## Example
 
 ### Terraform code
